@@ -1,0 +1,24 @@
+{
+  "name": "smartplanner-agenda-inteligente",
+  "version": "2.0.0",
+  "description": "Agenda Inteligente de Produtividade Baseada em Regras Determinísticas, Time-Blocking e Matriz de Eisenhower",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js",
+    "test": "node --test tests/domain.test.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "keywords": [
+    "agenda-inteligente",
+    "time-blocking",
+    "eisenhower-matrix",
+    "deterministic-scheduling",
+    "pomodoro",
+    "feynman"
+  ],
+  "author": "Projeto Acadêmico",
+  "license": "MIT"
+}
